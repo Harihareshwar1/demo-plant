@@ -27,7 +27,7 @@ const Predict = () => {
 
     try {
       // Upload image
-      const response = await axios.post('http://localhost:5000/upload', formData, {
+      const response = await axios.post('https://demo-plant-backend.onrender.com/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       const uploadedUrl = response.data.url;

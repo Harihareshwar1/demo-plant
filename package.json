@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "npm run dev",
-    "start:backend": "cd server && node index.js",
+   
+   
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
